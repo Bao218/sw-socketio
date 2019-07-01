@@ -3,7 +3,7 @@ namespace PHPSocketIO\Engine\Protocols;
 use \PHPSocketIO\Engine\Protocols\WebSocket;
 use \PHPSocketIO\Engine\Protocols\Http\Request;
 use \PHPSocketIO\Engine\Protocols\Http\Response;
-use Swoole\TcpConnection;
+use \PHPSocketIO\Swoole\TcpConnection;
 class SocketIO 
 {
     public static function input($http_buffer, $connection)
